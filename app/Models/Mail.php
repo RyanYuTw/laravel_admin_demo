@@ -14,7 +14,7 @@ class Mail extends Model
         // 資料庫名稱
         protected $table = 'mail';
         // 主鍵欄位
-        //protected $primaryKey = 'id';
+        protected $primaryKey = 'id';
         // 主鍵型態
         //protected $keyType = 'int';
         // 軟刪除

@@ -12,6 +12,5 @@ Route::group([
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index')->name('home');
-    $router->get('/mail/testing', 'MailTestingController@index');
-
+    $router->resource('/mail/testing', MailTestingController::class);
 });
